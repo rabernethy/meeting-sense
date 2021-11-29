@@ -32,3 +32,4 @@ This model uses a multi layer convolution neural network to encode audio then ma
 * [Transformers]()(Specifically Wav2Vec2ForCTC & Wav2Vec2Tokenizer)
 * [Wavfile](https://pypi.org/project/wavefile/)
 * [Flask](https://pypi.org/project/Flask/)
+* [WordCloud](https://github.com/amueller/word_cloud)
