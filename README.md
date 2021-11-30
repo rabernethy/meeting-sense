@@ -6,8 +6,8 @@ CIS 4330 003 Final Course Project
 
 Front End - @MCQv9
 
-- [] 2 App Pages ( Homepage & Wordle)
-- [] Send recoreded audio to server and visulized response
+- [ ] 2 App Pages ( Homepage & Wordle)
+- [ ] Send recoreded audio to server and visulized response
 
 Back End - @rabernethy
 
