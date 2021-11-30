@@ -6,14 +6,15 @@ CIS 4330 003 Final Course Project
 
 Front End - @MCQv9
 
-* 2 App Pages ( Homepage & Wordle)
-* Send recoreded audio to server and visulized response
+- [] 2 App Pages ( Homepage & Wordle)
+- [] Send recoreded audio to server and visulized response
 
 Back End - @rabernethy
 
-* API / Web Server for app
-* Pipeline for audio to text translation
-* Readme.md document
+- [x] API / Web Server for app
+- [x] Pipeline for audio to text translation
+- [x] Readme.md document
+- [x] wordle creation
 
 ## Pretrained Model
 
@@ -29,7 +30,7 @@ This model uses a multi layer convolution neural network to encode audio then ma
 
 * [Librosa](https://librosa.org/doc/latest/index.html)
 * [PyTorch](https://pytorch.org/)
-* [Transformers]()(Specifically Wav2Vec2ForCTC & Wav2Vec2Tokenizer)
+* [Transformers](https://huggingface.co/transformers/)(Specifically Wav2Vec2ForCTC & Wav2Vec2Tokenizer)
 * [Wavfile](https://pypi.org/project/wavefile/)
 * [Flask](https://pypi.org/project/Flask/)
 * [WordCloud](https://github.com/amueller/word_cloud)
