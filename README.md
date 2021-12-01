@@ -15,6 +15,7 @@ Back End - @rabernethy
 - [x] Pipeline for audio to text translation
 - [x] Readme.md document
 - [x] wordle creation
+- [x] word checking via dictionary for postprocessing
 
 ## Pretrained Model
 

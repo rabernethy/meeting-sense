@@ -67,6 +67,7 @@ def asr():
     # create a word visuluzation using to results from the ASR
     data = open("results.txt").read()
     data = data.lower()
+    
     create_word_cloud("picture_result.png")
 
     return send_file("results.txt", mimetype='image/png')
