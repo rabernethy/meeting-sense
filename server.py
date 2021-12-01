@@ -11,7 +11,7 @@ from wordcloud import WordCloud, STOPWORDS
 from PIL import Image
 
 result_filename = 'results.txt'
-input_filename = './current_audio.wav'
+input_filename = 'current_audio.wav'
 
 app = Flask(__name__)
 
@@ -29,7 +29,7 @@ def asr():
     # Remove background noise that is irrelevant to the meeting that is being transcibed.
     rate, data = wavfile.read( input_filename )
     data = nr.reduce_noise(y=data, sr = 16000)
-    
+
         # Noise Reduction Algorithm Workings:
         # Calculate a spectrogram of the audio clip
         # Calculate a threshold based on the statistic likelyhood of the noises in the audio file
