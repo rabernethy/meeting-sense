@@ -2,6 +2,8 @@
 
 CIS 4330 003 Final Course Project
 
+The final project can be found in server.py (flask server implementation) as well as final_demo.py (version presented in class)
+
 ## Responsibilities
 
 Front End - @MCQv9
